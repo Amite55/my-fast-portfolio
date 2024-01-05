@@ -24,6 +24,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 100px;
 }
 .nav-title{
     color: #181818;
@@ -42,4 +43,26 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* =========== nav bar ends hare=========== */
+
+/* ======--header parth start hare ---======= */
+
+
+.header{
+    background-color: #FFF8F3;
+}
+
+
+
+/* =======banner part start hare ======= */
+
+.banner{
+    padding: 30px 30px 30px 100px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
