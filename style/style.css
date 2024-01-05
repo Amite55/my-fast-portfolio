@@ -10,13 +10,34 @@ body{
 }
 .btn-primary{
     border-radius: 5px;
-    background-color: #FD6E0A;
+    
     border: 0;
     font-size: 20px;
-    color: #fff;
+    color: #141414;
     padding: 15px 35px;
     font-weight: 700;
 }
+.btn-primary:hover{
+    background-color: #FD6E0A;
+    color: #FFF8F3;
+    transition: all linear 0.3s;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+}
+
+.section-desc{
+    font-size: 18px;
+    font-weight: 400;
+    color: #474747;
+    text-align: center;
+}
+
+/* ---------common style ends hare------------ */
 
 /* =====nav bar start hare===== */
 
@@ -47,22 +68,63 @@ nav a{
 
 /* =========== nav bar ends hare=========== */
 
-/* ======--header parth start hare ---======= */
+/* =======banner part start hare ======= */
 
 
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 
 
-/* =======banner part start hare ======= */
+
 
 .banner{
-    padding: 30px 30px 30px 100px;
+    padding: 30px 30px 0px 100px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
+.banner-content{
+    max-width: 400px;
+}
 .banner .profile-pic{
-    width: 500px;
+    width: 400px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #000000f3;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.banner-des{
+    font-weight: 400px;
+    font-size: 15px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+#banner-btn-down{
+    margin-right: 30px;
+}
+
+/* ========banner part end hare=========== */
+
+
+/* ========about me start hare========= */
+
+.about{
+    padding: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0;
 }
